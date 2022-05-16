@@ -48,6 +48,11 @@ a:visited {
   outline: 0;
 }
 
+select {
+  font-size: 2em;
+  border: none;
+}
+
 /*Utility*/
 .container {
   margin: auto;
@@ -68,7 +73,6 @@ a:visited {
 }
 
 .button {
-  display: block;
   background-color: var(--color-primary);
   color: #fff;
   border: solid 3px #c8c8da9c;
@@ -81,6 +85,19 @@ a:visited {
 
 .button:hover {
   transform: scale(1.1);
+}
+
+.button.input {
+  margin: 0 0.5em;
+}
+
+.button#equal {
+  background-color: #20973e;
+}
+
+.button.input#result:hover {
+  transform: none;
+  cursor: unset;
 }
 
 /*SECTIONS*/
