@@ -33,7 +33,22 @@
     <main class="main">
       <div class="container">
         <h1 class="title"><em>Esercizio js-0001</em></h1>
-        <div class="exercises-container flex-row-center"></div>
+        <div class="exercises-container flex-row-center">
+          <div id="number-1" class="button flex-row-center input">
+            Click Me!
+          </div>
+          <select type="select" name="operator" id="select-operator">
+            <option value="+" selected>+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+          </select>
+          <div id="number-2" class="button flex-row-center input">
+            Click Me!
+          </div>
+          <button class="button" id="equal">=</button>
+          <div id="result" class="button flex-row-center input">Result...</div>
+        </div>
       </div>
     </main>
     <footer>
@@ -69,6 +84,6 @@
       src="https://kit.fontawesome.com/82cb370791.js"
       crossorigin="anonymous"
     ></script>
-    <script src="./src/index.js" type="module"></script>
+    <script src="./js-0001.js" type="module"></script>
   </body>
 </html>
