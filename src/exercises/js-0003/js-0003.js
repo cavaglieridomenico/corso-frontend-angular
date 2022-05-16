@@ -11,14 +11,18 @@ const getColors = () => {
 const limit = () => getColors().length - 1;
 const setCounter = counter(limit());
 
+/*Color change starts when the page is loaded*/
 let interval = setInterval(() => {
   setCounter.increase();
   document.body.style.background = getColors()[setCounter.getValue()];
 }, 1000);
 
+/*Pause*/
 getPause().addEventListener("click", () => {
   clearInterval(interval);
 });
+
+/*Play*/
 getStart().addEventListener("click", () => {
   clearInterval(interval);
   interval = setInterval(() => {
