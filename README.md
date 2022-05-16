@@ -1,3 +1,3 @@
 # Corso frontend Angular
 
-<a src="https://corsofrontendcavaglieri.netlify.app/">Deploy of the exercises</a>
+<a href="https://corsofrontendcavaglieri.netlify.app/">Deploy of the exercises</a>
