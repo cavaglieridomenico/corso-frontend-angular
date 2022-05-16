@@ -9,45 +9,33 @@
       href="./src/assets/images/favicon.ico"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="./src/assets/style/style.css" />
-    <title>Esercizi di Domenico Cavaglieri</title>
+    <link rel="stylesheet" href="../../assets/style/style.css" />
+    <title>Esercizio js-0001</title>
   </head>
   <body>
     <header>
       <div class="container header__container flex-row-between">
         <div class="logo">
-          <img src="./src/assets/images/logo192.png" width="100%" alt="logo" />
+          <img src="../../assets/images/logo192.png" width="100%" alt="logo" />
         </div>
+        <button class="button">
+          <a
+            href="../../../index.html"
+            class="btn btn-primary btn-lg text-light"
+            tabindex="-1"
+            role="button"
+            aria-disabled="true"
+            >Back to Home</a
+          >
+        </button>
       </div>
     </header>
     <main class="main">
       <div class="container">
-        <h1 class="title"><em>Esercizi di Domenico Cavaglieri</em></h1>
-        <div class="exercises-container flex-row-center">
-          <button class="button">
-            <a
-              href="./src/exercises/js-0001/js-0001.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              >JS-0001</a
-            >
-          </button>
-          <button class="button">
-            <a
-              href="./src/exercises/js-0002/js-0002.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              >JS-0002</a
-            >
-          </button>
-          <button class="button">
-            <a
-              href="./src/exercises/js-0003/js-0003.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              >JS-0003</a
-            >
-          </button>
+        <h1 class="title"><em>Esercizio JS-0003</em></h1>
+        <div class="flex-row-center">
+          <button id="pause" class="button">PAUSE</button>
+          <button id="start" class="button">PLAY</button>
         </div>
       </div>
     </main>
@@ -84,6 +72,6 @@
       src="https://kit.fontawesome.com/82cb370791.js"
       crossorigin="anonymous"
     ></script>
-    <script src="./src/index.js" type="module"></script>
+    <script src="./js-0003.js" type="module"></script>
   </body>
 </html>
