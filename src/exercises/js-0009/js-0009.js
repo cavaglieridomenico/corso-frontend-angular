@@ -68,7 +68,7 @@ getForm().addEventListener("submit", (event) => {
   }
   const filteredList = inventory.filter((item) => item.brand === inputValue);
   if (filteredList.length === 0) {
-    setMessageToUser("red", "Sorry, Product not found.");
+    setMessageToUser("red", "Sorry, brand not found.");
   } else {
     const ol = document.createElement("ol");
     getResponseSearch().appendChild(ol);
