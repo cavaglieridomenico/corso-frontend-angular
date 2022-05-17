@@ -43,4 +43,3 @@ getButtonPrimes().addEventListener("click", () => {
     getInputNumber().value.toString()
   );
 });
-console.log(printFivePrimes(25));
