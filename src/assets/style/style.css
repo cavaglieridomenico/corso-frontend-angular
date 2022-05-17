@@ -134,6 +134,11 @@ header .logo {
   margin-bottom: 40em;
 }
 
+.exercises-container {
+  flex-wrap: wrap;
+  min-height: 10em;
+}
+
 .title {
   text-align: center;
 }
