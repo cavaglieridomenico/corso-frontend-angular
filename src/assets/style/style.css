@@ -1,3 +1,5 @@
+@import "../../exercises/js-0005/js-0005.css";
+
 /*COMMON*/
 :root {
   --max-width-container: 900px;
@@ -102,6 +104,10 @@ select {
 .button.input#result:hover {
   transform: none;
   cursor: unset;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 /*SECTIONS*/
