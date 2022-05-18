@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../../assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../assets/style/style.css" />
+    <title>Esercizio js-0010</title>
+  </head>
+  <body>
+    <header>
+      <div class="container header__container flex-row-between">
+        <div class="logo">
+          <img src="../../assets/images/logo192.png" width="100%" alt="logo" />
+        </div>
+        <button class="button">
+          <a
+            href="../../../index.html"
+            class="btn btn-primary btn-lg text-light"
+            tabindex="-1"
+            role="button"
+            aria-disabled="true"
+            >Back to Home</a
+          >
+        </button>
+      </div>
+    </header>
+    <main class="main table">
+      <div class="container">
+        <h1 class="title"><em>Esercizio JS-0010</em></h1>
+        <section>
+          <div class="number-container date">
+            <h3 id="date-title">Please enter a date</h3>
+            <div class="date-container">
+                <div class="flex-row-between">
+                    <label for="nummber">Day:</label>
+                    <input type="number" id="day" />
+                </div>
+                <div class="flex-row-between">
+                    <label for="nummber">Month:</label>
+                    <input type="number" id="month" />
+                </div>
+                <div class="flex-row-between">
+                    <label for="nummber">Year:</label>
+                    <input type="number" id="year" />
+                </div>
+            </div>
+            <button
+              id="button-date"
+              type="submit"
+              class="button"
+            >Check if it's a valid date</button>
+            <div class="message-to-user date"></div>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container footer__container flex-row-center">
+        <span style="font-size: 46px; color: Dodgerblue">
+          <a
+            href="https://www.facebook.com/profile.php?id=100070999937670"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </span>
+        <span class="mx-5" style="font-size: 48px; color: Dodgerblue">
+          <a
+            href="https://www.linkedin.com/in/domenico-cavaglieri-aa0333217/"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </span>
+        <span style="font-size: 48px; color: Dodgerblue">
+          <a
+            href="https://github.com/cavaglieridomenico"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </span>
+      </div>
+    </footer>
+    <div class="table-modal-container hidden">
+      <span class="close-modal" style="font-size: 46px; color: Dodgerblue">
+        <i class="fa-solid fa-x"></i>
+      </span>
+      <div class="table-modal"></div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/82cb370791.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js-0010.js" type="module"></script>
+  </body>
+</html>
