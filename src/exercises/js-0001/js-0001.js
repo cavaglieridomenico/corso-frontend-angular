@@ -1,5 +1,10 @@
-import { getSum, getSub, getMult, getDiv } from "./math.js";
-import { isInvalidNumber } from "./numberValidation.js";
+import {
+  isInvalidNumber,
+  getSum,
+  getSub,
+  getMult,
+  getDiv,
+} from "../../assets/utils/number-management.js";
 //DOM Elements
 const getNumber1 = () => document.querySelector("#number-1");
 const getNumber2 = () => document.querySelector("#number-2");

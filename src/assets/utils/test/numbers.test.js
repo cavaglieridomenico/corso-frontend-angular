@@ -1,5 +1,10 @@
-import { isInvalidNumber } from "../numberValidation.js";
-import { getSum, getSub, getMult, getDiv } from "../math.js";
+import {
+  getSum,
+  getSub,
+  getMult,
+  getDiv,
+  isInvalidNumber,
+} from "../number-management";
 
 /*Number validation*/
 test("it should return true if the input is a valid number, otherwise false", () => {
