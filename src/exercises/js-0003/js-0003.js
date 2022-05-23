@@ -1,4 +1,4 @@
-import { counter } from "./counter.js";
+import { counter } from "../../assets/utils/counter.js";
 /*DOM elements*/
 const getPause = () => document.querySelector("#pause");
 const getStart = () => document.querySelector("#start");
