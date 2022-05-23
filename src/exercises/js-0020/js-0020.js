@@ -25,7 +25,7 @@ const setGreetUserModal = () => {
   if (!user.name) return;
   getModalContainer().classList.remove("hidden");
   getModal().innerHTML = `
-<h1>Wellcome ${user.name}.</h1>
+<h1>Welcome ${user.name}.</h1>
 `;
 };
 
