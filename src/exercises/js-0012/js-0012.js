@@ -1,4 +1,4 @@
-import { getBubbleSort } from "../../assets/utils/sorting.js";
+import { getBubbleSort } from "../../utils/sorting/sorting.js";
 
 /*DOM Elements*/
 const getButton = () => document.querySelector("#button-date");

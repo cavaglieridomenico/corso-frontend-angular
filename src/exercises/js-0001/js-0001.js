@@ -4,7 +4,7 @@ import {
   getSub,
   getMult,
   getDiv,
-} from "../../assets/utils/numbers.js";
+} from "../../utils/math/numbers.js";
 //DOM Elements
 const getNumber1 = () => document.querySelector("#number-1");
 const getNumber2 = () => document.querySelector("#number-2");
