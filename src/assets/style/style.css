@@ -160,7 +160,7 @@ header .logo {
 /*Main*/
 .main {
   background: linear-gradient(90deg, #00f7ff, #0099ff, #838da5);
-  margin-bottom: 5em;
+  margin-bottom: 10em;
 }
 
 .exercises-container {
