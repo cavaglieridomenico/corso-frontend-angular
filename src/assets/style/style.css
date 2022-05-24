@@ -1,7 +1,7 @@
-@import "../../exercises/js-0005/js-0005.css";
-@import "../../exercises/js-0008/js-0008.css";
-@import "../../exercises/js-0009/js-0009.css";
-@import "../../exercises/js-0010/js-0010.css";
+@import "./js-0005.css";
+@import "./js-0008.css";
+@import "./js-0009.css";
+@import "./js-0010.css";
 
 /*COMMON*/
 :root {
@@ -160,7 +160,7 @@ header .logo {
 /*Main*/
 .main {
   background: linear-gradient(90deg, #00f7ff, #0099ff, #838da5);
-  margin-bottom: 40em;
+  margin-bottom: 5em;
 }
 
 .exercises-container {
