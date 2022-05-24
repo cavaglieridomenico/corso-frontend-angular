@@ -77,6 +77,13 @@ select {
   align-items: center;
 }
 
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .button {
   background-color: var(--color-primary);
   color: #fff;
@@ -170,6 +177,10 @@ header .logo {
 
 .title {
   text-align: center;
+}
+
+.exercises-container.index .button {
+  margin: 0.5em 0.5em;
 }
 
 .window-prop {
