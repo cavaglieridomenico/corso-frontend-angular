@@ -1,4 +1,4 @@
-import { isValidDay, isValidMonth, isValidYear } from "../../time.js";
+import { isValidDay, isValidMonth, isValidYear } from "../time.js";
 
 test("it should return true if the input is a valid day of date format, otherwise false", () => {
   expect(isValidDay(1)).toBe(true);

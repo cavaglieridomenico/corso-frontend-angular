@@ -2,7 +2,7 @@ import {
   isValidDay,
   isValidMonth,
   isValidYear,
-} from "../../assets/utils/time.js";
+} from "../../utils/time/time.js";
 
 /*DOM Elements*/
 const getDay = () => document.querySelector("#day");
