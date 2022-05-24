@@ -2,4 +2,5 @@
   font-size: 1.1em;
   margin-top: 1em;
   border: solid 5px var(--color-primary);
+  width: 280px;
 }
