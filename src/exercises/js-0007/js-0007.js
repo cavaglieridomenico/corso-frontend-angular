@@ -1,4 +1,4 @@
-import { getInsertionSort } from "./insertion-sorting.js";
+import { getInsertionSort } from "../../assets/utils/sorting.js";
 
 /*DOM Elements*/
 const getButton = () => document.querySelector("#button-date");

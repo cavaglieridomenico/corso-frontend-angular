@@ -1,4 +1,4 @@
-import { getGreeting } from "../date-management.js";
+import { getGreeting } from "../../time.js";
 
 test("Get the correct greeting", () => {
   expect(getGreeting(2)).toEqual("Buonanotte");

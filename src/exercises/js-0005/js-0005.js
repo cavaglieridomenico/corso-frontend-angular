@@ -9,7 +9,6 @@ const setShowEnlargedImages = () => {
   for (let item of getImages()) {
     item.addEventListener("click", () => {
       getModalContainer().classList.remove("hidden");
-      console.log(item.id);
       switch (item.id) {
         case "img-1":
           getModal().style.backgroundImage =
