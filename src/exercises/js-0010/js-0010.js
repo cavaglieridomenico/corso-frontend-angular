@@ -1,4 +1,8 @@
-import { isValidDay, isValidMonth, isValidYear } from "./date-validation.js";
+import {
+  isValidDay,
+  isValidMonth,
+  isValidYear,
+} from "../../assets/utils/time.js";
 
 /*DOM Elements*/
 const getDay = () => document.querySelector("#day");

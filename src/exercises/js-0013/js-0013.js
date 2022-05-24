@@ -1,4 +1,4 @@
-import { getMergeSort } from "./merge-sorting.js";
+import { getMergeSort } from "../../assets/utils/sorting.js";
 
 /*DOM Elements*/
 const getButton = () => document.querySelector("#button-date");

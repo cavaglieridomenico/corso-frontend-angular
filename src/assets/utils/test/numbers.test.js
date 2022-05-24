@@ -1,10 +1,4 @@
-import {
-  getSum,
-  getSub,
-  getMult,
-  getDiv,
-  isInvalidNumber,
-} from "../number-management";
+import { getSum, getSub, getMult, getDiv, isInvalidNumber } from "../numbers";
 
 /*Number validation*/
 test("it should return true if the input is a valid number, otherwise false", () => {

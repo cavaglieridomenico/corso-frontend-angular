@@ -8,8 +8,6 @@ pc.hhd = prompt("Choose your hard disk");
 pc.video = prompt("Choose your video card");
 pc.ram = prompt("Choose your RAM");
 
-console.log(pc);
-
 getResult().innerHTML = `
 <h3>Your PC</h3>
 <p><strong>Processor</strong>: ${pc.processor}</p>

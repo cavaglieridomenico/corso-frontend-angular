@@ -1,4 +1,4 @@
-import { getMonth, getGreeting } from "../../assets/utils/date-management.js";
+import { getMonth, getGreeting } from "../../assets/utils/time.js";
 
 /*DOM Elements*/
 const getModalContainer = () =>

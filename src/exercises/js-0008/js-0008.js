@@ -23,12 +23,10 @@ const printFivePrimes = (number) => {
   let i = 1;
   while (list.length <= number - 1) {
     if (isPrime(i)) {
-      console.log(i);
       list.push(i);
     }
     i++;
   }
-  console.log(list);
   return list;
 };
 
