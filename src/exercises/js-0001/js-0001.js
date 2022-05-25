@@ -43,7 +43,6 @@ getEqual().addEventListener("click", () => {
   let number1 = parseFloat(getNumber1().innerText.replace(",", "."));
   let number2 = parseFloat(getNumber2().innerText.replace(",", "."));
 
-  console.log(getSum(number1, number2));
   if (isInvalidNumber(number1) || isInvalidNumber(number2)) {
     window.alert("Please choose two valid numbers!");
     return;
