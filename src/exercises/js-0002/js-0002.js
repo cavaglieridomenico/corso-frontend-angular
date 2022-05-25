@@ -9,13 +9,11 @@ const getAdminName = () => {
   return [
     "giovanni",
     "domenico",
-    "ganiele",
-    "francesco",
+    "daniele",
+    "nicola",
     "cristiano",
     "emilia",
     "marco",
-    "giulia",
-    "valeria",
     "giorgio",
   ];
 };
