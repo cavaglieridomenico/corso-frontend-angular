@@ -1,12 +1,12 @@
 /*DOM Elements*/
-const getTitle: Function = (): HTMLHeadingElement =>
+const getTitle = (): HTMLHeadingElement =>
   document.querySelector("#date-getTitle");
 
-const getInput: Function = (): HTMLInputElement =>
+const getInput = (): HTMLInputElement =>
   document.querySelector("#number");
-const getButtonTime: Function = (): HTMLButtonElement =>
+const getButtonTime = (): HTMLButtonElement =>
   document.querySelector("#button-date");
-const getMessage: Function = (): HTMLDivElement =>
+const getMessage = (): HTMLDivElement =>
   document.querySelector(".message-to-user-transparent");
 
 const numbers: number[] = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
