@@ -1,9 +1,3 @@
-/*DOM Elements*/
-const getInput = (): HTMLInputElement => document.querySelector("#number");
-const getButton = (): HTMLButtonElement => document.querySelector("#button-date");
-const getMessageSquare = (): HTMLDivElement => document.querySelector(".square");
-
-
 
 class FiguraGeometrica {
 	protected nome: string;
