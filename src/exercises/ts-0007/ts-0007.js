@@ -79,7 +79,7 @@ console.log("Perimetro del quadrato: ".concat(quadrato.getPerimetro()));
 console.log("Area del quadrato: ".concat(quadrato.getArea()));
 var cerchio = new Geometria.Cerchio(5);
 console.log("Circonferenza del cerchio: ".concat(cerchio.getPerimetro()));
-console.log("Area del cerchio: ".concat(cerchio.getArea(), "\n  "));
+console.log("Area del cerchio: ".concat(cerchio.getArea()));
 var rombo = new Geometria.Rombo(5, 4, 7);
 console.log("Perimetro del rombo: ".concat(rombo.getPerimetro()));
 console.log("Area del rombo: ".concat(rombo.getArea()));

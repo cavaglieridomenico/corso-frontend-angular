@@ -102,8 +102,7 @@ console.log(`Area del quadrato: ${quadrato.getArea()}`);
 
 const cerchio = new Geometria.Cerchio(5);
 console.log(`Circonferenza del cerchio: ${cerchio.getPerimetro()}`);
-console.log(`Area del cerchio: ${cerchio.getArea()}
-  `);
+console.log(`Area del cerchio: ${cerchio.getArea()}`);
 
 const rombo = new Geometria.Rombo(5, 4, 7);
 console.log(`Perimetro del rombo: ${rombo.getPerimetro()}`);
