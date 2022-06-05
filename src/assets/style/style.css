@@ -238,6 +238,19 @@ form span i {
   cursor: pointer;
 }
 
+#canvas {
+  border: 5px solid rgb(22, 49, 109);
+  border-radius: 5%;
+  transform: rotateX("10deg");
+}
+
+#turtle {
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  z-index: 3;
+}
+
 /*Main ends*/
 
 /*Footer*/
