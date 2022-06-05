@@ -32,7 +32,15 @@ getCanvas().addEventListener("mousedown", setPosition);
 getCanvas().addEventListener("mousemove", draw);
 
 const getTurtle = () => document.querySelector("#turtle");
-window.addEventListener("mousemove", (event) => {
+getCanvas().addEventListener("mousemove", (event) => {
   getTurtle().style.left = event.clientX + 10 + "px";
   getTurtle().style.top = event.clientY + "px";
+});
+
+getCanvas().addEventListener("mouseout", () => {
+  getTurtle().style.visibility = "hidden";
+});
+
+getCanvas().addEventListener("mouseenter", () => {
+  getTurtle().style.visibility = "visible";
 });
