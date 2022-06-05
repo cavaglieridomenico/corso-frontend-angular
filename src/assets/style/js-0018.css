@@ -1,0 +1,64 @@
+#figure {
+  margin-top: 2.5em;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: orange;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: orange;
+}
+
+.trapezoid {
+  border-bottom: 100px solid orange;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 125px;
+}
+
+.rhombus {
+  width: 100px;
+  height: 100px;
+  -moz-transform: rotate(45deg) skew(10deg, 10deg);
+  -webkit-transform: rotate(45deg) skew(10deg, 10deg);
+  -ms-transform: rotate(45deg) skew(10deg, 10deg);
+  -o-transform: rotate(45deg) skew(10deg, 10deg);
+  transform: rotate(45deg) skew(10deg, 10deg);
+  background: orange;
+}
+
+.octagon {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  position: relative;
+}
+.octagon:before {
+  content: "";
+  width: 100px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 29px solid orange;
+  border-left: 29px solid #1aa2fc;
+  border-right: 29px solid #0598fa;
+}
+.octagon:after {
+  content: "";
+  width: 100px;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 29px solid orange;
+  border-left: 29px solid #1aa2fc;
+  border-right: 29px solid #0598fa;
+}
